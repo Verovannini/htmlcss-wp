@@ -38,6 +38,12 @@ e ho dato position:absolute al layover quindi devo dare position:relative al pad
     top: 0;
     left: 0;
 }
+
+/* Testo grigio comune a più sezioni */
+.grey-text{
+    color: grey;
+    font-size: 16px;
+}
 /* END COMMON */
 
 /* HEADER */
@@ -102,11 +108,6 @@ main{
     font-size: 40px;
 }
 
-.grey-test{
-    color: grey;
-    font-size: 16px;
-}
-
 /* Content Main */
 .main-content{
     margin-top: 20px;
@@ -119,8 +120,6 @@ main{
 
 main .col{
     float: left;
-    height: 300px;
-    background-color: #abcfe7;
 }
 
 main .col-left,
@@ -131,6 +130,15 @@ main .col-right{
 main .col-center{
     width: 46%;
     margin: 0 2%;
+}
+
+.col .img-container{
+    height: 200px;
+    position: relative;
+}
+
+.col h4{
+    padding: 15px 0;
 }
 /* END MAIN */
 
