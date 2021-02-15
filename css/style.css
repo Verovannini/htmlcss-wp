@@ -79,10 +79,12 @@ e ho dato position:absolute al layover quindi devo dare position:relative al pad
     color: white;
 }
 .title-container h1{
-    font-size: 25px;
+    font-size: 30px;
+    font-weight: 300;
 }
 .title-container h3{
-    font-size: 14px;
+    font-size: 15px;
+    font-weight: 300;
 }
 /* END HEADER */
 
@@ -90,18 +92,24 @@ e ho dato position:absolute al layover quindi devo dare position:relative al pad
 main{
     margin-top: 20px;
     padding-bottom: 20px;
-    background-color: #0483fb;
 }
 
+/* Title Main*/
 .main-title{
-    width: 100%;
-    height: 80px;
-    background-color: #abcfe7;
+    padding: 10px 0;
+}
+.main-title h2{
+    font-size: 40px;
 }
 
+.grey-test{
+    color: grey;
+    font-size: 16px;
+}
+
+/* Content Main */
 .main-content{
     margin-top: 20px;
-    width: 100%;
 }
 .clearfix::after{
     content: "";
